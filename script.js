@@ -1,13 +1,40 @@
-document.getElementById('contact-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
+document.querySelectorAll('.slider').forEach((slider, sliderIndex) => {
+    let currentSlide = 0;
+    const slides = slider.querySelectorAll('.slider-item');
+    const totalSlides = slides.length;
 
-    if (name && email && message) {
-        alert('Thank you, ' + name + '! I will get back to you soon.');
-        document.getElementById('contact-form').reset();
-    } else {
-        alert('Please fill out all fields.');
+    function showSlide(index) {
+        if (index >= totalSlides) {
+            currentSlide = 0;
+        } else if (index < 0) {
+            currentSlide = totalSlides - 1;
+        } else {
+            currentSlide = index;
+        }
+        slider.style.transform = `translateX(-${currentSlide * 100}%)`;
     }
+
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        showSlide(currentSlide);
+    }
+
+    function prevSlide() {
+        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+        showSlide(currentSlide);
+    }
+
+    function startAutoSlide() {
+        return setInterval(() => {
+            nextSlide();
+        }, 5000); // Interval 5 detik
+    }
+
+    // Tambahkan event listener ke tombol kontrol slider
+    const controls = document.querySelectorAll('.slider-controls')[sliderIndex];
+    controls.querySelector('.next-slide').addEventListener('click', nextSlide);
+    controls.querySelector('.prev-slide').addEventListener('click', prevSlide);
+
+    // Mulai auto slide untuk slider ini
+    startAutoSlide();
 });
