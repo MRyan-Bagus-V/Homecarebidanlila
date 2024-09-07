@@ -252,7 +252,7 @@ footer {
 }
 
 /* Media Queries untuk Responsivitas */
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
     nav ul {
         gap: 10px;
     }
