@@ -254,7 +254,6 @@ footer {
 /* Media Queries untuk Responsivitas */
 @media (max-width: 1000px) {
     nav ul {
-        flex-direction: column;
         gap: 10px;
     }
 
