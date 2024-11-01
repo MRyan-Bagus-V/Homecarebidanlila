@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://homecarebidanlila.vercel.app/</loc>
     <lastmod>2024-11-01</lastmod>
   </url>
   <url>
-    <loc>https://homecarebidanlila.vercel.app/about</loc>
+    <loc>https://homecarebidanlila.vercel.app/#about</loc>
     <lastmod>2024-11-01</lastmod>
   </url>
   <url>
-    <loc>https://homecarebidanlila.vercel.app/education</loc>
+    <loc>https://homecarebidanlila.vercel.app/#projects</loc>
     <lastmod>2024-11-01</lastmod>
   </url>
   <url>
-    <loc>https://homecarebidanlila.vercel.app/pricelist</loc>
+    <loc>https://homecarebidanlila.vercel.app/#skills</loc>
+    <lastmod>2024-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://homecarebidanlila.vercel.app/#contact</loc>
     <lastmod>2024-11-01</lastmod>
   </url>
 </urlset>
