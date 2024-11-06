@@ -1,33 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Homepage -->
     <url>
         <loc>https://homecarebidanlila.vercel.app/</loc>
-        <lastmod>2024-11-02</lastmod>
-        <changefreq>daily</changefreq>
+        <lastmod>2024-11-06</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
+
+    <!-- Tentang Kami Section -->
     <url>
         <loc>https://homecarebidanlila.vercel.app/#about</loc>
-        <lastmod>2024-11-02</lastmod>
+        <lastmod>2024-11-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Layanan Kami Section -->
     <url>
         <loc>https://homecarebidanlila.vercel.app/#services</loc>
-        <lastmod>2024-11-02</lastmod>
+        <lastmod>2024-11-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Keunggulan Kami Section -->
     <url>
         <loc>https://homecarebidanlila.vercel.app/#keunggulan</loc>
-        <lastmod>2024-11-02</lastmod>
+        <lastmod>2024-11-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
+
+    <!-- Artikel Section -->
     <url>
-        <loc>https://homecarebidanlila.vercel.app/#contact</loc>
-        <lastmod>2024-11-02</lastmod>
+        <loc>https://homecarebidanlila.vercel.app/#Artikel</loc>
+        <lastmod>2024-11-06</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
+    </url>
+
+    <!-- Kontak Kami Section -->
+    <url>
+        <loc>https://homecarebidanlila.vercel.app/#contact</loc>
+        <lastmod>2024-11-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Detail Pages for Specific Services -->
+    <url>
+        <loc>https://homecarebidanlila.vercel.app/mom.html</loc>
+        <lastmod>2024-11-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://homecarebidanlila.vercel.app/baby.html</loc>
+        <lastmod>2024-11-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://homecarebidanlila.vercel.app/kids.html</loc>
+        <lastmod>2024-11-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
 </urlset>
