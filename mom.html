@@ -149,7 +149,7 @@
             object-fit: cover;
         }
         .service .title {
-            background-color: #0056b3;
+            background-color: #044680;
             color: #fff;
             padding: 10px;
             font-size: 18px;
@@ -228,30 +228,32 @@
         }
     </style>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="profile.jpg" alt="Klinik Logo" height="50"> HOMECARE BIDAN LILA</a>
+                <img src="profile.jpg" alt="Klinik Logo" height="50"> HOMECARE BIDAN LILA
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Beranda</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Beranda</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Tentang Kami</a>
                     </li>
-                    <li class="nav-item dropdown active">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Layanan Kami
+                            Layanan
                         </a>
                         <div class="dropdown-menu" aria-labelledby="servicesDropdown">
-                            <a class="dropdown-item" href="#MomTreatment">Mom Treatment</a>
-                            <a class="dropdown-item" href="#BabyTreatment">Baby Treatment</a>
-                            <a class="dropdown-item" href="#KidsTreatment">Kids Treatment</a>
+                            <a class="dropdown-item" href="#services">Mom Treatment</a>
+                            <a class="dropdown-item" href="#services">Baby Treatment</a>
+                            <a class="dropdown-item" href="#services">Kids Treatment</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -267,6 +269,7 @@
             </div>
         </div>
     </nav>
+    
     <div class="hero">
         <div class="overlay"></div>
         <div class="content container">
@@ -278,7 +281,7 @@
             </div>
         </div>
     </div>
-
+    
     <section id="services" class="py-5">
         <div class="container">
             <h2 class="text-center" data-aos="fade-up">Layanan Treatment Mom</h2>
@@ -286,10 +289,10 @@
             <div class="row">
                 <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
                     <div class="service">
-                        <img alt="Doctor holding an andrological model" height="200" src="mom.jpeg" width="300"/>
+                        <img alt="Doctor holding an andrological model" height="200" src="ibu hamil.jpg" width="300"/>
                         <a href="mom.html" class="title">
-                            Mom Massage 
-                            <i class="fas fa-arrow-right"></i>
+                            Pijat Ibu Hamil
+                            <i class="fas fa-arrow"></i>
                         </a>
                     </div>
                 </div>
@@ -298,7 +301,7 @@
                         <img alt="Doctor holding an andrological model" height="200" src="laktasi.jpg" width="300"/>
                         <a href="Baby.html" class="title">
                             Pijat Laktasi 
-                            <i class="fas fa-arrow-right"></i>
+                            <i class="fas fa-arrow"></i>
                         </a>
                     </div>
                 </div>
@@ -307,72 +310,119 @@
                         <img alt="Doctor holding an andrological model" height="200" src="totok wajah.jpg" width="300"/>
                         <a href="kids.html" class="title">
                             Totok Wajah
-                            <i class="fas fa-arrow-right"></i>
+                            <i class="fas fa-arrow"></i>
                         </a>
                     </div>
                 </div>
                 <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
                     <div class="service">
-                        <img alt="Doctor holding an andrological model" height="200" src="kids.jpg" width="300"/>
+                        <img alt="Doctor holding an andrological model" height="200" src="nifas.jpg" width="300"/>
                         <a href="kids.html" class="title">
-                            Pasca Nifas
-                            <i class="fas fa-arrow-right"></i>
+                            Pijat Nifas
+                            <i class="fas fa-arrow"></i>
                         </a>
                     </div>
                 </div>
-                
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="service">
+                        <img alt="Doctor holding an andrological model" height="200" src="lulur.jpeg" width="300"/>
+                        <a href="kids.html" class="title">
+                            Pijat Lulur
+                            <i class="fas fa-arrow"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     
-    <section id="contact" class="py-5 bg-light">
+    <section id="services" class="py-5">
         <div class="container">
-            <h2 class="text-center" data-aos="fade-up">Kontak Kami</h2>
-            <p class="text-center mb-5" data-aos="fade-up">Hubungi kami untuk pertanyaan atau membuat janji temu.</p>
+            <h2 class="text-center" data-aos="fade-up">PAKET MOM TREATMENT</h2>
+            <p class="text-center mb-5" data-aos="fade-up">Selain itu, Homecare Bidan Lila juga menyediakan paket treatment bagi ibu hamil dan ibu pasca nifas.</p>
             <div class="row">
-                <div class="col-md-6" data-aos="fade-right">
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Nama</label>
-                            <input type="text" class="form-control" id="name" placeholder="Nama Anda">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email Anda">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Pesan</label>
-                            <textarea class="form-control" id="message" placeholder="Pesan Anda"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Kirim</button>
-                    </form>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="service">
+                        <img alt="Doctor holding an andrological model" height="200" src="ibu hamil.jpg" width="300"/>
+                        <a href="mom.html" class="title">
+                            Paket Ibu Hamil I
+                            <i class="fas fa-arrow"></i>
+                        </a>
+                    </div>
                 </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="service">
+                        <img alt="Doctor holding an andrological model" height="200" src="laktasi.jpg" width="300"/>
+                        <a href="Baby.html" class="title">
+                            Paket Ibu Hamil II
+                            <i class="fas fa-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="service">
+                        <img alt="Doctor holding an andrological model" height="200" src="totok wajah.jpg" width="300"/>
+                        <a href="kids.html" class="title">
+                            Paket Ibu Hamil III
+                            <i class="fas fa-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="service">
+                        <img alt="Doctor holding an andrological model" height="200" src="nifas.jpg" width="300"/>
+                        <a href="kids.html" class="title">
+                            Paket Nifas I
+                            <i class="fas fa-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="service">
+                        <img alt="Doctor holding an andrological model" height="200" src="nifas.jpg" width="300"/>
+                        <a href="kids.html" class="title">
+                            Paket Nifas II
+                            <i class="fas fa-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="service">
+                        <img alt="Doctor holding an andrological model" height="200" src="nifas.jpg" width="300"/>
+                        <a href="kids.html" class="title">
+                            Paket Nifas III
+                            <i class="fas fa-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-        <footer class="bg-dark text-white py-4">
-            <div class="container text-center">
-                <p><strong></strong> Jabodetabek DKI Jakarta , Indonesia</p>
-                <p><strong></strong> <a href="tel:02112345678" class="text-white">+6281365417753</a></p>
-                <p><strong></strong> <a href="mailto:info@kliniksehat.com" class="text-white">lilapratamaputri@gmail.com</a></p>
-                <div class="social-icons mt-3">
-                    <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
-                </div>
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p><strong></strong> Jabodetabek DKI Jakarta, Indonesia</p>
+            <p><strong></strong> <a href="tel:02112345678" class="text-white">+6281365417753</a></p>
+            <p><strong></strong> <a href="mailto:info@kliniksehat.com" class="text-white">lilapratamaputri@gmail.com</a></p>
+            <div class="social-icons mt-3">
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
             </div>
-        </footer>
+        </div>
+    </footer>
+</body>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
-        $(document).ready(function(){
-            $('.navbar-nav>li>a').on('click', function(){
+        $(document).ready(function () {
+            $('.navbar-nav>li>a').on('click', function () {
                 $('.navbar-nav>li').removeClass('active');
                 $(this).parent().addClass('active');
             });
-            
+
             $(window).on('scroll', function () {
                 if ($(window).scrollTop()) {
                     $('.navbar').addClass('scrolled');
@@ -380,7 +430,6 @@
                     $('.navbar').removeClass('scrolled');
                 }
 
-                // Set 'active' class based on scroll position
                 const scrollPos = $(window).scrollTop();
                 $('.nav-item').each(function () {
                     const section = $($(this).find('a').attr('href'));
@@ -392,8 +441,8 @@
             });
         });
     </script>
-        <a href="https://api.whatsapp.com/send?phone=6281365417753" class="whatsapp">
-            <i class="fab fa-whatsapp"></i>
-        </a>
+    <a href="https://api.whatsapp.com/send?phone=6281365417753" class="whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 </body>
 </html>
